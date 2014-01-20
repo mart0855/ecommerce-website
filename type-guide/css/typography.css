@@ -28,7 +28,7 @@ html {
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
-blockquote, table, hr {
+hr {
   margin: 1.25rem 1.25rem 1.953rem;
 }
 
@@ -37,17 +37,74 @@ th {
   font: normal 100%/1.25 'Oswald', sans-serif;
 }
 
-a, em, strong, i, b, small, s, cite, q, dfn, abbr, time, sup, sub, mark, del, ins, data {
+a, em, strong, i, b, small, s, q, dfn, abbr, time, sup, sub, mark, del, ins, data {
   margin: 0 0 1.25rem;
 }
 
+table {
+  margin: 1.25rem 1.25rem 1.953rem;
+  background-color: #775b80;
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
 th, td {
-  margin: 1.25rem 1.5rem 1.125rem;
-  padding: 1.25rem 1.25rem 0;
+  margin: 1.25rem 1.5rem 1.25rem;
+  padding: 1.25rem 2.44rem 1.25rem;
+  border-bottom: 1px solid #fff;
+}
+
+th{
+  background-color: #3FCD75;
 }
 
 caption {
   margin: 0 0 1.25rem;
+}
+
+blockquote {
+  margin: 2em auto 0;
+  padding: 1.5em 4em 2.25em;
+  position: relative;
+  width: 35em;
+
+  background-color: #a26047;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+
+  color: #EFE5C4;
+  font-size: 1.25em;
+  line-height: 1.5625;
+  font-family: Times,serif;
+}
+
+cite {
+  display: block;
+  color: #e7a560;
+  font-family: Times,serif;
+  font-style: oblique;
+  text-align: right;
+  font: oblique 2em/1.25 Times,serif;
+}
+
+blockquote p:before,
+blockquote p:after {
+  position: absolute;
+  color: #e7a560;
+  font: normal 8em/1 Arial,sans-serif;
+}
+
+blockquote p:before {
+  left: 0.1em;
+  top: 0.1em;
+
+  content: "“";
+}
+
+blockquote p:after {
+  margin-top: -0.1em;
+  right: 0.1em;
+
+  content: "”";
 }
 
 .yotta {
@@ -138,4 +195,13 @@ ul li:before {
   color: #666;
   position: absolute;
   left: -1.2em;
+}
+
+dt {
+  margin: 1.25rem 0 1.5625rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+mark {
+  background-color: #3fcd75;
 }
