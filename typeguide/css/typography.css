@@ -89,7 +89,7 @@ a:link {
 }
 
 a:visited {
-  color: #68446e;
+  color: #c7acdb;
   border-bottom-color: rgba(199,172,219,0.5);
 }
 
@@ -171,7 +171,7 @@ ul li:before {
 }
 
 blockquote {
-  margin: 5em auto 0;
+  margin: 1.953em auto 1.953;
   padding: 1.5em 4em 2.25em;
   position: relative;
   width: 35em;
@@ -186,7 +186,7 @@ blockquote {
 
 cite {
   display: block;
-  margin-top: -1.5rem;
+  margin-top: 1.6rem;
 
   color: #c7acdb;
   font-family: 'Raleway',sans-serif;
@@ -199,7 +199,7 @@ blockquote p:after {
   position: absolute;
 
   color: #233954;
-  font: normal 8em/1 'Bitter',serif;
+  font: normal 8em/1 Arial,sans-serif;
 }
 
 blockquote p:before {
