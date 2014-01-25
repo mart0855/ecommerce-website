@@ -172,7 +172,7 @@ ul li:before {
 
 blockquote {
   margin: 1.953em auto 1.953;
-  padding: 1.56em 3.8147em 1.953em;
+  padding: 1.56em 3.8147em 1.56em;
   position: relative;
   width: 35em;
 
@@ -184,13 +184,12 @@ blockquote {
   font-size: 1.25em;
 }
 
-cite {
+blockquote footer {
   display: block;
-  margin-top: 1.56rem;
+  margin-top: -1.25rem;
 
   color: #c7acdb;
   font-family: 'Raleway',sans-serif;
-  font-style: oblique;
   text-align: right;
 }
 
