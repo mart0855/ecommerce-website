@@ -1,109 +1,26 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
-  - Teal: #3fcd75 - rgb(63, 205, 117)
-  - Dark Teal: #3FCD75 - rgb(63, 205, 117)
-  - Dark Beige: #E0C87E - rgb(224, 200, 126)
-  - Beige: #F7E4BE - rgb(247, 228, 190)
-  - Light Beige: #EFE5C4 - rgb(239, 229, 196)
-  - Purple: #775b80 - rgb(119, 91, 128)
-  - Orange: #d66b3d - rgb(214, 107, 61)
-  - Brown: #a26047 - rgb(162, 96, 71)
-  - Light Orange: #e7a560 - rgb(231, 165, 96)
+  - Heading blue: #28a090 - rgb(40,160,144)
+  - Mark light blue: #80fca0 - rgb(128,252,160)
+  - Link purple: #6a61a0 - rgb(106,97,160)
+  - Link desaturated purple: #c7acdb - rgb(199,172,219)
+  - Link magenta: #984860 - rgb(152,72,96)
+  - Dark blue: #284c68 - rgb(40,76,104)
+  - Dark-dark blue: #233954 - rgb(35,57,84)
 
  */
 
 html {
-  font: normal 100%/1.25 Times ,serif; /* 16px/20px */
-  background: #ddc98b; /* Old browsers */
-  background: -moz-linear-gradient(top, #ddc98b 0%, #f7e4be 28%, #efe5c4 51%, #f7e4be 74%, #ddc98b 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ddc98b), color-stop(28%,#f7e4be), color-stop(51%,#efe5c4), color-stop(74%,#f7e4be), color-stop(100%,#ddc98b)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #ddc98b 0%,#f7e4be 28%,#efe5c4 51%,#f7e4be 74%,#ddc98b 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #ddc98b 0%,#f7e4be 28%,#efe5c4 51%,#f7e4be 74%,#ddc98b 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #ddc98b 0%,#f7e4be 28%,#efe5c4 51%,#f7e4be 74%,#ddc98b 100%); /* IE10+ */
-  background: linear-gradient(to bottom, #ddc98b 0%,#f7e4be 28%,#efe5c4 51%,#f7e4be 74%,#ddc98b 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddc98b', endColorstr='#ddc98b',GradientType=0 ); /* IE6-9 */
+  background-color: #fff;
+
+  color: #444;
+  font: normal 100%/1.6 'Raleway', sans-serif; /* 16px/25.6px */
 }
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
-hr {
-  margin: 1.25rem 1.25rem 1.953rem;
-}
-
-h1, h2, h3, h4, h5, h6,
-th {
-  font: normal 100%/1.25 'Oswald', sans-serif;
-}
-
-a, em, strong, i, b, small, s, q, dfn, abbr, time, sup, sub, mark, del, ins, data {
+blockquote, table, hr {
   margin: 0 0 1.25rem;
-}
-
-table {
-  margin: 1.25rem 1.25rem 1.953rem;
-  background-color: #775b80;
-  border-collapse: collapse;
-}
-
-th, td {
-  margin: 1.25rem 1.5rem 1.25rem;
-  padding: 1.25rem 2.44rem 1.25rem;
-  border-bottom: 1px solid #fff;
-}
-
-th{
-  background-color: #3FCD75;
-}
-
-caption {
-  margin: 0 0 1.25rem;
-}
-
-blockquote {
-  margin: 2em auto 0;
-  padding: 1.5em 4em 2.25em;
-  position: relative;
-  width: 35em;
-
-  background-color: #a26047;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-
-  color: #EFE5C4;
-  font-size: 1.25em;
-  line-height: 1.5625;
-  font-family: Times,serif;
-}
-
-cite {
-  display: block;
-  color: #e7a560;
-  font-family: Times,serif;
-  font-style: oblique;
-  text-align: right;
-  font: oblique 2em/1.25 Times,serif;
-}
-
-blockquote p:before,
-blockquote p:after {
-  position: absolute;
-  color: #e7a560;
-  font: normal 8em/1 Arial,sans-serif;
-}
-
-blockquote p:before {
-  left: 0.1em;
-  top: 0.1em;
-
-  content: "“";
-}
-
-blockquote p:after {
-  margin-top: -0.1em;
-  right: 0.1em;
-
-  content: "”";
 }
 
 .yotta {
@@ -156,51 +73,182 @@ small, .milli {
   line-height: 1.9531;
 }
 
-::selection {
-  background-color: rgb(214, 107, 61);
-  color: rgb(231, 165, 96);
+h1, h2, h3, h4, h5, h6,
+.brand {
+  color: #28a090;
+  font-family: 'Bitter', serif;
 }
 
 a,
 a:link {
-  color: #775b80;
+  border-bottom: 0.1em solid rgba(106,97,160,0.5);
+  transition: all 150ms linear;
+
+  color: #6a61a0;
   text-decoration: none;
-  border-bottom: 0.1em solid rgba(119, 91, 128, 0.5);
-  transition: all 200ms linear;
 }
 
 a:visited {
-  color: #a26047;
-  border-bottom-color: rgba(162, 96, 71, 0.5);
+  color: #68446e;
+  border-bottom-color: rgba(199,172,219,0.5);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #3fcd75;
-  border-bottom-color: rgb(63, 205, 117);
+  color: #984860;
+  border-bottom-color: #984860;
+}
+
+sup,
+sub {
+  line-height: 1;
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+abbr {
+  border-bottom: 0.1em dotted rgba(0,0,0,0.5);
+
+  cursor: help;
+}
+
+ins {
+  border-bottom: 0.1em dotted rgba(0,0,0,0.5);
+
+  color: #000;
+  text-decoration: none;
+}
+
+del {
+  color: rgba(0,0,0,0.5);
+}
+
+mark {
+  background-color: #80fca0;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #c7c0ae;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+}
+
+ol {
+  padding: 0;
 }
 
 ul {
+  padding: 0;
+
   list-style-type: none;
 }
 
-ul li{
+ul li {
   position: relative;
 }
 
 ul li:before {
-  content: "➸";
-  color: #666;
+  content: "•";
   position: absolute;
-  left: -1.2em;
+  left: -0.6em;
+
+  color: #c7c0ae;
 }
 
-dt {
-  margin: 1.25rem 0 1.5625rem;
-  font-family: 'Oswald', sans-serif;
+blockquote {
+  margin: 5em auto 0;
+  padding: 1.5em 4em 2.25em;
+  position: relative;
+  width: 35em;
+
+  background-color: #284c68;
+  border-radius: 1em;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+
+  color: #fff;
+  font-size: 1.25em;
 }
 
-mark {
-  background-color: #3fcd75;
+cite {
+  display: block;
+  margin-top: -1.5rem;
+
+  color: #c7acdb;
+  font-family: 'Raleway',sans-serif;
+  font-style: oblique;
+  text-align: right;
+}
+
+blockquote p:before,
+blockquote p:after {
+  position: absolute;
+
+  color: #233954;
+  font: normal 8em/1 'Bitter',serif;
+}
+
+blockquote p:before {
+  left: 0.1em;
+  top: 0.1em;
+
+  content: "“";
+}
+
+blockquote p:after {
+  margin-top: -0.1em;
+  right: 0.1em;
+
+  content: "”";
+}
+
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+caption {
+  font-style: italic;
+}
+
+th {
+  background-color: #eae8e1;
+
+  text-align: left;
+}
+
+th, td {
+  padding: 0.25rem;
+
+  border: 1px solid #c7c0ae;
+}
+
+.flex-img {
+  width: 100%;
+  display: block;
+}
+
+.space-none {
+  margin-bottom: 0;
+}
+
+::selection {
+  background-color: rgb(35,57,84);
+  color: rgb(40,76,104);
 }
