@@ -7,6 +7,10 @@
   - Link magenta: #984860 - rgb(152,72,96)
   - Dark blue: #284c68 - rgb(40,76,104)
   - Dark-dark blue: #233954 - rgb(35,57,84)
+  - Table beige: #f9f8b9 - rgb(249,248,185)
+  - Table dark beige: #e6c589 - rgb(230,197,137)
+  - Table dark peach: #da8264 - rgb(218,130,100)
+
 
  */
 
@@ -226,16 +230,26 @@ caption {
   font-style: italic;
 }
 
+tr:nth-child(even) {
+  background-color: rgba(249,248,185,0.8);
+}
+
 th {
-  background-color: #eae8e1;
+  background-color: rgba(230,197,137,0.5);
 
   text-align: left;
+}
+
+td {
+  background-color: rgba(249,248,185,0.5);
+
+  text-align: center;
 }
 
 th, td {
   padding: 0.25rem;
 
-  border: 1px solid #c7c0ae;
+  border: 1px solid #da8264;
 }
 
 .flex-img {
