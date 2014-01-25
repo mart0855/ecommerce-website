@@ -14,7 +14,7 @@ html {
   background-color: #fff;
 
   color: #444;
-  font: normal 100%/1.6 'Raleway', sans-serif; /* 16px/25.6px */
+  font: normal 100%/1.56 'Raleway', sans-serif; /* 16px/25px */
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -172,7 +172,7 @@ ul li:before {
 
 blockquote {
   margin: 1.953em auto 1.953;
-  padding: 1.5em 4em 2.25em;
+  padding: 1.56em 3.8147em 1.953em;
   position: relative;
   width: 35em;
 
@@ -186,7 +186,7 @@ blockquote {
 
 cite {
   display: block;
-  margin-top: 1.6rem;
+  margin-top: 1.56rem;
 
   color: #c7acdb;
   font-family: 'Raleway',sans-serif;
