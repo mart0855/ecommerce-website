@@ -10,15 +10,13 @@
   - Table beige: #f9f8b9 - rgb(249,248,185)
   - Table dark beige: #e6c589 - rgb(230,197,137)
   - Table border peach: #da8264 - rgb(218,130,100)
-
-
  */
 
 html {
   background-color: #fff;
 
   color: #444;
-  font: normal 100%/1.56 'Raleway', sans-serif; /* 16px/25px */
+  font: normal 100%/1.56 "Raleway",sans-serif; /* 16px/25px */
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -80,7 +78,7 @@ small, .milli {
 h1, h2, h3, h4, h5, h6,
 .brand {
   color: #28a090;
-  font-family: 'Bitter', serif;
+  font-family: "Bitter",serif;
 }
 
 a,
