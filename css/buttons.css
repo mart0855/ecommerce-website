@@ -3,8 +3,8 @@
 .btn:visited {
 	display: inline-block;
 	padding: 0.75em 1em;
-	background-color: #793284;
-	background-image:linear-gradient(to bottom, #793284, #571062);
+	background-color: #6a61a0;
+	background-image:linear-gradient(to bottom, #6a61a0, #595287);
 	border-radius: 4px;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 	color: #fff;
@@ -15,6 +15,6 @@
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited {
-	background-color: #5d8432;
-	background-image: linear-gradient(to bottom, #5d8432, #3d6210);
+	background-color: #28a090;
+	background-image: linear-gradient(to bottom, #28a090, #1f7b6f);
 }
