@@ -15,5 +15,5 @@
 }
 
 .list-group-item-reverse {
-	float: right;
+	display block;
 }
