@@ -13,3 +13,7 @@
 .list-group-item-inline {
 	display: inline-block;
 }
+
+.list-group-item-reverse {
+	float: right;
+}
