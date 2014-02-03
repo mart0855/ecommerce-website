@@ -1,17 +1,10 @@
 	header {
-	background-color: #e6e6e6;
+	background-color: #6a61a0;
 	overflow: auto;
 	height: 13rem;
-	width: 80%;
 	}
 
 .logo {
 	height: 50px;
 	width: 50px;
-	float: left;
-	margin: .5rem 1rem 1rem 5%;
-}
-
-.nav {
-	margin-left: 50%;
 }
