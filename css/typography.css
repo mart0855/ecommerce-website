@@ -149,6 +149,14 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Bitter",serif;
 }
 
+.brand-family {
+  font-family: "Bitter",serif;
+}
+
+.brand-color {
+  color: #28a090;
+}
+
 a,
 a:link {
   border-bottom: 0.1em solid rgba(106,97,160,0.5);
@@ -316,11 +324,6 @@ th, td {
   padding: 0.25rem;
 
   border: 1px solid #da8264;
-}
-
-.flex-img {
-  width: 100%;
-  display: block;
 }
 
 .space-none {
