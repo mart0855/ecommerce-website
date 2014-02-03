@@ -1,10 +1,10 @@
 	header {
 	background-color: #233954;
 	overflow: auto;
-	max-height: 20rem;
+	max-height: auto;
 	}
 
-.logo {
+.logo img {
 	height: 50px;
 	width: 50px;
 }
