@@ -1,0 +1,46 @@
+.hide-text{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+.social{
+	width: 100%;
+	margin-top: 1rem;
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+	display: block;
+	float: right;
+	height: 40px;
+	width: 40px;
+	margin-right: .5rem;
+	text-align: center;
+	padding-top: 0.5rem;
+	/* background-color: #222;*/
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	color: #211e1e;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #cdccbe;
+	-moz-box-shadow: inset 0px 0px 0px 40px #cdccbe;
+	-ms-box-shadow: inset 0px 0px 0px 40px #cdccbe;
+	-o-box-shadow: inset 0px 0px 0px 40px #cdccbe;
+	box-shadow: inset 0px 0px 0px 40px #cdccbe;
+}
+
+.social li a:hover,
+.social li a:focus,
+.social li a:active{
+	-webkit-box-shadow: inset 0px 0px 0px 3px #cdccbe;
+	-moz-box-shadow: inset 0px 0px 0px 3px #cdccbe;
+	-ms-box-shadow: inset 0px 0px 0px 3px #cdccbe;
+	-o-box-shadow: inset 0px 0px 0px 3px #cdccbe;
+	box-shadow: inset 0px 0px 0px 3px #cdccbe;
+	color: #cdccbe;
+}
