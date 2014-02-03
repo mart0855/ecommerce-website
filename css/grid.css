@@ -12,6 +12,10 @@
 	width: 100%;
 }
 
+.unit-s-1-8 {
+		width: 12.5%;
+	}
+
 .unit-s-1-2 {
 	width: 50%;
 }
@@ -30,8 +34,16 @@
 		width: 100%;
 	}
 
+	.unit-m-1-8 {
+		width: 12.5%;
+	}
+
 	.unit-m-1-2 {
 		width: 50%;
+	}
+
+	.unit-m-2-3 {
+		width: 66.6666%;
 	}
 
 }
@@ -44,5 +56,9 @@
 
 	.unit-l-2-3 {
 		width: 66.6666%;
+	}
+
+	.unit-l-1-8 {
+		width: 12.5%;
 	}
 }
