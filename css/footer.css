@@ -44,3 +44,11 @@
 	box-shadow: inset 0px 0px 0px 3px #cdccbe;
 	color: #cdccbe;
 }
+
+.footer{
+	clear: both;
+	width: 80%;
+	margin: 0 auto;
+	padding: 1rem;
+	background-color: #233954;
+}
