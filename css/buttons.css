@@ -1,3 +1,15 @@
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot');
+	src:url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .btn,
 .btn:link,
 .btn:visited {
@@ -52,7 +64,7 @@ background-color: #0f5b4f;
 
 input[type=search] {
 	float: right;
-	padding: 8px;            /* Overridden by padding: 1px; */
+	padding: 4px;            /* Overridden by padding: 1px; */
 	font-family: "Raleway";     /* Overridden by font: -webkit-small-control; */
 	border: 2px solid #da8264;  /* Overridden by border: 2px inset; */
 	border-radius: 4px;
@@ -61,22 +73,57 @@ input[type=search] {
 }
 
 .cart{
-	color: #fff;
+	max-width: 157px;
+	width: 14%;
+	padding: 8px;
+	color: #6a61a0;
 	float: right;
+	height: 44px;
 	margin-right: 15px;
-	margin-top: 15px;
+	font-size: 1em;
+	background-color: #f9f8b9;
 }
 
 .cart a{
-	color: #fff;
+	color: #c7acdb;
 	text-decoration: none;
 	border-bottom: none;
 }
 
 .cart a:hover{
-	color: #c7acdb;
+	color: #984860;
 }
 
 .cart i{
 	padding: 5px;
+}
+
+@media screen and (min-width: 30em) {
+
+
+	input[type=search] {
+	float: right;
+	padding: 4px;            /* Overridden by padding: 1px; */
+	font-family: "Raleway";     /* Overridden by font: -webkit-small-control; */
+	border: 2px solid #da8264;  /* Overridden by border: 2px inset; */
+	border-radius: 4px;
+	background: #f9f8b9;          /* Overridden by background-color: white; */
+	clear: both;
+	}
+
+}
+
+
+@media screen and (min-width: 42em) {
+
+	.cart{
+		font-size: 1.3em;
+	}
+
+}
+
+@media screen and (min-width: 60em) {
+	.cart{
+		font-size: 1.8em;
+	}
 }
