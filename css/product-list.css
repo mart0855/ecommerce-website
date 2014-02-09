@@ -1,5 +1,7 @@
 .product {
-	background-color: #e6c589;
+	background-color: #f9f8b9;
 	padding: 1em;
 	border-radius: 6px;
+	width: 50em;
+	overflow:hidden;
 }
