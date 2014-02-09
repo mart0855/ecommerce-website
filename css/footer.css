@@ -17,128 +17,22 @@ body {
 	font: normal 100%/1.5 sans-serif;
 }
 
-.masthead {
-	margin: 0 0 1.5em;
-	overflow: hidden;
+.footer{
+	clear: both;
+	width: 100%;
+	padding: 1rem;
+	background-color: #233954;
 }
 
-.masthead-top {
-	overflow: hidden;
-	position: relative;
+.footer a{
+	color: #c7acdb;
+	border: none;
+	padding-top: 5px;
 }
 
-.logo-wrapper {
-	margin: 0;
-	padding: 0;
-
-	font-size: 1em;
-}
-
-.logo {
-	float: left;
-	height: 70px;
-	margin: 0 10px 0;
-	padding: 0;
-	width: 80px;
-
-	background: transparent url("../img/logo.svg") no-repeat left top;
-	background-size: 80px auto;
-
-	font-size: 1.5em;
-	line-height: 1.3;
-	text-indent: 100%;
-	white-space: nowrap;
-}
-
-.nav-btn,
-.nav-btn:link,
-.nav-btn:visited {
-	bottom: 0;
-	height: 40px;
-	overflow: hidden;
-	position: absolute;
-	right: 10px;
-	width: 46px;
-
-	background: transparent url("../img/icon-nav.svg") no-repeat 0 0;
-
-	text-indent: 100%;
-	white-space: nowrap;
-}
-
-.nav-btn:hover,
-.nav-btn:focus,
-.nav-btn:active {
-	background-color: #000;
-	background-position: 0 -40px;
-}
-
-.nav {
-	background-color: #000;
-}
-
-.nav > ul {
-	margin: 0;
-	padding: 0.8em 0;
-
-	list-style-type: none;
-	font-size: 1.25em;
-}
-
-.nav a,
-.nav a:link,
-.nav a:visited {
-	display: block;
-	padding: 0.5em 10px;
-
-	color: #e2e2e2;
-	text-decoration: none;
-}
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active {
-	background-color: #222;
-
-	color: #fff;
-}
-
-.nav-bottom {
-	margin-top: 1.5em;
-}
-
-.moon-list {
-	margin: 0;
-	padding: 0;
-
-	list-style-type: none;
-	text-align: center;
-}
-
-.moon-list > li {
-	display: inline-block;
-}
-
-.moon-list figure {
-	margin: 0;
-	padding: 10px;
-}
-
-.moon-list a,
-.moon-list a:link,
-.moon-list a:visited {
-	display: inline-block;
-
-	color: #000;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.moon-list a:hover,
-.moon-list a:focus,
-.moon-list a:active {
-	background-color: #e2e2e2;
-	border-radius: 6px;
+.footer a:hover{
+	color: #984860;
+	transition: all 150ms linear;
 }
 
 .hide-text{
@@ -170,28 +64,64 @@ body {
 	-o-border-radius: 20px;
 	border-radius: 20px;
 	color: #211e1e;
-	-webkit-box-shadow: inset 0px 0px 0px 40px #cdccbe;
-	-moz-box-shadow: inset 0px 0px 0px 40px #cdccbe;
-	-ms-box-shadow: inset 0px 0px 0px 40px #cdccbe;
-	-o-box-shadow: inset 0px 0px 0px 40px #cdccbe;
-	box-shadow: inset 0px 0px 0px 40px #cdccbe;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #f9f8b9;
+	-moz-box-shadow: inset 0px 0px 0px 40px #f9f8b9;
+	-ms-box-shadow: inset 0px 0px 0px 40px #f9f8b9;
+	-o-box-shadow: inset 0px 0px 0px 40px #f9f8b9;
+	box-shadow: inset 0px 0px 0px 40px #f9f8b9;
 }
 
 .social li a:hover,
 .social li a:focus,
 .social li a:active{
-	-webkit-box-shadow: inset 0px 0px 0px 3px #cdccbe;
-	-moz-box-shadow: inset 0px 0px 0px 3px #cdccbe;
-	-ms-box-shadow: inset 0px 0px 0px 3px #cdccbe;
-	-o-box-shadow: inset 0px 0px 0px 3px #cdccbe;
-	box-shadow: inset 0px 0px 0px 3px #cdccbe;
-	color: #cdccbe;
+	-webkit-box-shadow: inset 0px 0px 0px 3px #f9f8b9;
+	-moz-box-shadow: inset 0px 0px 0px 3px #f9f8b9;
+	-ms-box-shadow: inset 0px 0px 0px 3px #f9f8b9;
+	-o-box-shadow: inset 0px 0px 0px 3px #f9f8b9;
+	box-shadow: inset 0px 0px 0px 3px #f9f8b9;
+	color: #f9f8b9;
 }
 
-.footer{
-	clear: both;
-	width: 80%;
-	margin: 0 auto;
-	padding: 1rem;
-	background-color: #233954;
+.copyright{
+	color: #fff;
+	text-align: center;
+	margin-top: 2em;
+}
+
+@media screen and (min-width: 30em) {
+.social li a,
+.social li a:link,
+.social li a:visited{
+		font-size: 1.5rem;
+		display: block;
+		float: right;
+		height: 60px;
+		width: 60px;
+		margin-right: .7rem;
+		text-align: center;
+		padding-top: .7rem;
+		/* background-color: #222;*/
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		-ms-border-radius: 30px;
+		-o-border-radius: 30px;
+		border-radius: 30px;
+		color: #211e1e;
+		-webkit-box-shadow: inset 0px 0px 0px 40px #f9f8b9;
+		-moz-box-shadow: inset 0px 0px 0px 40px #f9f8b9;
+		-ms-box-shadow: inset 0px 0px 0px 40px #f9f8b9;
+		-o-box-shadow: inset 0px 0px 0px 40px #f9f8b9;
+		box-shadow: inset 0px 0px 0px 40px #f9f8b9;
+	}
+
+.social li a:hover,
+.social li a:focus,
+.social li a:active{
+	-webkit-box-shadow: inset 0px 0px 0px 3px #f9f8b9;
+	-moz-box-shadow: inset 0px 0px 0px 3px #f9f8b9;
+	-ms-box-shadow: inset 0px 0px 0px 3px #f9f8b9;
+	-o-box-shadow: inset 0px 0px 0px 3px #f9f8b9;
+	box-shadow: inset 0px 0px 0px 3px #f9f8b9;
+	color: #f9f8b9;
+}
 }
