@@ -21,12 +21,19 @@
 	<header class="masthead">
 
 		<div class="masthead-top">
-			<h1 class="logo-wrapper exa brand"><a href="index.html" class="logo"></a>Shirtz</h1>
-		<div class="cart giga">
+			<h1 class="logo-wrapper brand"><a href="index.html" class="logo"></a>Shirtz</h1>
+		<div class="cart giga sb-search">
+
 				<a href="#"><i class="fa fa-shopping-cart"></i>Cart (1)</a>
 		</div>
 			<div id="search">
-				<input type="search" name="searchbar" placeholder="Search...">
+				<div id="sb-search" class="sb-search">
+		    	<form>
+        		<input class="sb-search-input" placeholder="Enter your search term..." type="search" value="" name="search" id="search">
+        		<input class="sb-search-submit" type="submit" value="">
+        		<span class="sb-icon-search"></span>
+		    	</form>
+				</div>
 			</div>
 		</div>
 		<div id="pattern" class="pattern">
@@ -46,6 +53,11 @@
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="../js/classie.js"></script>
+<script src="../js/uisearch.js"></script>
+<script>
+	new UISearch( document.getElementById( 'sb-search' ) );
+</script>
 <script>
 $(document).ready(function() {
     var menulink = $('.menu-link');
