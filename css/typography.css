@@ -237,8 +237,8 @@ ul {
 }
 
 ul li {
-  position: relative;
-}
+/*  position: relative;
+*/}
 
 ul li:before {
   content: "•";
