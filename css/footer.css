@@ -28,6 +28,7 @@ body {
 	color: #c7acdb;
 	border: none;
 	padding-top: 5px;
+	padding-right: 5px;
 }
 
 .footer a:hover{
@@ -45,6 +46,10 @@ body {
 .social{
 	width: 100%;
 	margin-top: 1rem;
+}
+
+.social a{
+	padding: 0;
 }
 
 .social li a,
@@ -124,4 +129,5 @@ body {
 	box-shadow: inset 0px 0px 0px 3px #f9f8b9;
 	color: #f9f8b9;
 }
+
 }
