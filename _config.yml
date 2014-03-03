@@ -1,0 +1,4 @@
+markdown: redcarpet
+baseurl: /inclass-ecommerce
+exclude: ['README.md']
+permalink: pretty
