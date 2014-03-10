@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Shirtz</title>
+  <title>{{page.title}} · Shirtz</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -46,14 +46,24 @@
      <a href="#" class="menu-link">Menu</a>
       <nav id="menu" role="navigation">
         <ul class="list-group ">
-          <li class="list-group-item"><a href="{{site.baseurl}}/">Home</a></li>
-          <li class="list-group-item"><a href="{{site.baseurl}}/about/">About</a></li>
-          <li class="list-group-item"><a href="{{site.baseurl}}/">Products</a></li>
-          <li class="list-group-item"><a href="{{site.baseurl}}/thank-you/">Thank You</a></li>
+          <li class="list-group-item">
+            <a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+          <li class="list-group-item">
+            <a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
+          <li class="list-group-item">
+            <a href="{{site.baseurl}}/">Products</a></li>
+          <li class="list-group-item">
+            <a class="{% if page.url == '/thank-you/' %}current{% endif %}" href="{{site.baseurl}}/thank-you/">Thank You</a></li>
         </ul>
       </nav>
     </div>
   </header>
+
+{% if page.showbanner %}
+<div class="banner">
+  <h2>{{page.bannertext}}</h2>
+</div>
+{% endif %}
 
 {{content}}
 
