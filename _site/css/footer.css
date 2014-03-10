@@ -22,6 +22,7 @@ body {
 	width: 100%;
 	padding: 1rem;
 	background-color: #233954;
+	overflow: hidden;
 }
 
 .footer a{
