@@ -266,6 +266,10 @@ input[type="search"].sb-search-input {
 
 }
 
+.current {
+  background-color: #80fca0;
+}
+
 .banner {
   background: #5d8432 url("../images/banner.jpg") no-repeat center center;
   background-size: cover;
