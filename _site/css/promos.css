@@ -3,6 +3,10 @@
 	border-radius: 10px;
 }
 
+.promo-large{
+	background-color: #f9f8b9;
+}
+
 .promo-group .unit:last-child .promo-small {
 	background-color: blue;
 }
