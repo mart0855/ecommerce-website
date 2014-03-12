@@ -52,7 +52,7 @@
           <li class="list-group-item">
             <a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
           <li class="list-group-item">
-            <a href="{{site.baseurl}}/">Products</a></li>
+            <a href="{% if page.url contains 'product' %}current{% endif %}" href="{{site.baseurl}}/products/">Products</a></li>
           <li class="list-group-item">
             <a class="{% if page.url == '/thank-you/' %}current{% endif %}" href="{{site.baseurl}}/thank-you/">Thank You</a></li>
         </ul>
@@ -74,7 +74,7 @@
       <ul>
         <li class="list-group-item-inline"><a class="list-group-item mega" href="{{site.baseurl}}/">Home</a></li>
         <li class="list-group-item-inline"><a class="list-group-item mega" href="{{site.baseurl}}/about">About</a></li>
-        <li class="list-group-item-inline"><a class="list-group-item mega" href="#">Products</a></li>
+        <li class="list-group-item-inline"><a class="list-group-item mega" href="{{site.baseurl}}/products/">Products</a></li>
         <li class="list-group-item-inline"><a class="list-group-item mega" href="{{site.baseurl}}/thank-you/">Thank You</a></li>
       </ul>
     </nav>
