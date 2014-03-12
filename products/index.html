@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h1>Products</h1>
+
+<h2>Men's</h2>
+
+<ul>
+	{% for product in site.pages %}
+		{% if product.category == 'product' %}
+			<li>
+				<a href="{{site.baseurl}}{{product.url}}">
+					<img src="{{site.baseurl}}/images/{{product.image}}" alt="">
+					{{product.title}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
