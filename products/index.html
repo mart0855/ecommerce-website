@@ -1,20 +1,18 @@
 ---
 layout: default
+title: Products
 ---
 
-<h1>Products</h1>
+<div class="grid">
+		<div class="unit unit-s-1 unit-m-1 unit-l-1">
+			<h1>Products</h1>
+		</div>
+</div>
 
 <h2>Men's</h2>
+{% include product-list.html type='mens' %}
 
-<ul>
-	{% for product in site.pages %}
-		{% if product.category == 'product' %}
-			<li>
-				<a href="{{site.baseurl}}{{product.url}}">
-					<img src="{{site.baseurl}}/images/{{product.image}}" alt="">
-					{{product.title}}
-				</a>
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>
+<h2>Women's</h2>
+{% include product-list.html type='womens' %}
+
+

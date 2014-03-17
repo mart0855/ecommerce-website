@@ -1,0 +1,13 @@
+<ul class="unit unit-s-1 unit-m-1 unit-1">
+	{% for product in site.pages %}
+		{% if product.type == include.type %}
+			<li>
+				<a href="{{site.baseurl}}{{product.url}}">
+					<img src="{{site.baseurl}}/images/{{product.image}}" alt="Photo of {{product.title}}">
+					<h3>{{product.title}}</h3>
+					<p>{{product.meta}}</p>
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
