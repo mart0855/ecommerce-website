@@ -211,6 +211,14 @@ input[type="search"].sb-search-input {
     -webkit-font-smoothing: antialiased;
 }
 
+.sb-icon-search:hover{
+    background: #e45e00;
+    -webkit-transition: all 350ms ease-in-out;
+        -moz-transition: all 350ms ease-in-out;
+    -ms-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+        transition: all 350ms ease-in-out;
+}
 .sb-icon-search:before {
     content: "\e000";
 }
