@@ -18,7 +18,7 @@
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/header.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/product-list-item.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/product-list.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/product.css" rel="stylesheet">
   <meta name="description" content="{{page.meta}}">
 </head>
@@ -29,19 +29,18 @@
     <div class="masthead-top">
       <h1 class="logo-wrapper brand"><a href="{{site.baseurl}}/" class="logo"></a>Shirtz</h1>
     <div class="cart giga sb-search">
-
-        <a href="#"><i class="fa fa-shopping-cart"></i>Cart (1)</a>
+      <a href="#"><i class="fa fa-shopping-cart"></i>Cart (1)</a>
     </div>
-      <div id="search">
-        <div id="sb-search" class="sb-search">
-          <form>
-            <input class="sb-search-input" placeholder="Whatcha lookin' for..." type="search" value="" name="search" id="search">
-            <input class="sb-search-submit" type="submit" value="">
-            <span class="sb-icon-search"></span>
-          </form>
-        </div>
+    <div id="search">
+      <div id="sb-search" class="sb-search">
+        <form>
+          <input class="sb-search-input" placeholder="Whatcha lookin' for..." type="search" value="" name="search" id="search">
+          <input class="sb-search-submit" type="submit" value="">
+          <span class="sb-icon-search"></span>
+        </form>
       </div>
     </div>
+  </div>
     <div id="pattern" class="pattern">
     <!--Begin Pattern HTML-->
      <a href="#" class="menu-link">Menu</a>
@@ -52,9 +51,7 @@
           <li class="list-group-item">
             <a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
           <li class="list-group-item">
-            <a href="{% if page.url contains 'product' %}current{% endif %}" href="{{site.baseurl}}/products/">Products</a></li>
-          <li class="list-group-item">
-            <a class="{% if page.url == '/thank-you/' %}current{% endif %}" href="{{site.baseurl}}/thank-you/">Thank You</a></li>
+            <a class="{% if page.url contains 'product' or page.url contains 'men' or page.url contains 'women' %}current{% endif %}" href="{{site.baseurl}}/products">Products</a></li>
         </ul>
       </nav>
     </div>
@@ -71,12 +68,14 @@
 <footer class="footer grid">
   <div class="list-group unit unit-s-1 unit-m-1-3 unit-l-1-3">
     <nav id="nav" class="nav nav-bottom">
-      <ul>
-        <li class="list-group-item-inline"><a class="list-group-item mega" href="{{site.baseurl}}/">Home</a></li>
-        <li class="list-group-item-inline"><a class="list-group-item mega" href="{{site.baseurl}}/about">About</a></li>
-        <li class="list-group-item-inline"><a class="list-group-item mega" href="{{site.baseurl}}/products/">Products</a></li>
-        <li class="list-group-item-inline"><a class="list-group-item mega" href="{{site.baseurl}}/thank-you/">Thank You</a></li>
-      </ul>
+      <ul class="list-group ">
+          <li class="list-group-item">
+            <a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+          <li class="list-group-item">
+            <a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
+          <li class="list-group-item">
+            <a class="{% if page.url contains 'product' or page.url contains 'men' or page.url contains 'women' %}current{% endif %}" href="{{site.baseurl}}/products">Products</a></li>
+        </ul>
     </nav>
   </div>
 

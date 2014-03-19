@@ -2,13 +2,47 @@
 layout: default
 ---
 
-<h1>{{page.name}}</h2>
+<div class="grid">
+	<div class="gutter unit unit-s-1 unit-m-1 unit-l-1">
+		<h1>{{page.title}}</h1>
+	</div>
+	<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-3 pad-b-2">
+		<img class="img-flex" src="{{site.baseurl}}/images/{{page.image}}" alt="Photo of {{page.title}}">
+	</div>
+	<div class="unit unit-s-1-3 unit-m-1-3 unit-l-1-3">
+		<ul class="list-group">
+			<li class="list-group-item">
+				<a href="#" class="icon-link">
+					<i class="icon i-32 i-small"></i>
+					<span class="icon-label">Small</span>
+				</a>
+			</li>
+			<li class="list-group-item">
+				<a href="#" class="icon-link">
+					<i class="icon i-32 i-medium"></i>
+					<span class="icon-label">Medium</span>
+				</a>
+			</li>
+			<li class="list-group-item">
+				<a href="#" class="icon-link">
+					<i class="icon i-32 i-large"></i>
+					<span class="icon-label">Large</span>
+				</a>
+			</li>
+			<li class="list-group-item">
+				<a href="#" class="icon-link">
+					<i class="icon i-32 i-xlarge"></i>
+					<span class="icon-label">X-Large</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-2-3">
+		<dl>
+			<dt>Price:</dt><dd class="giga">{{page.price}}</dd>
+			<dt>Material:</dt><dd>{{page.material}}</dd>
+			<dt>Description:</dt><dd>{{content}}</dd>
 
-<dl>
-	<dt>Time Period</dt>
-	<dd>{{page.time_period}}</dd>
-	<dt>Diet</dt>
-	<dd>{{page.diet}}</dd>
-</dl>
+	<a class="btn ease-all" href="#">Add to Cart</a>
 
-{{content}}
+	</div>

@@ -220,10 +220,11 @@ hr {
 
 dt {
   font-weight: bold;
+  font-size: 1rem;
 }
 
 dd {
-  margin: 0;
+  margin: 0 .5rem .5rem;
 }
 
 ol {

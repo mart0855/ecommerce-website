@@ -4,18 +4,22 @@ title: Products
 ---
 
 <div class="grid">
-	<div class="unit unit-s-1 unit-m-1 unit-l-1">
+	<div class="gutter unit unit-s-1 unit-m-1 unit-l-1">
 		<h1>Products</h1>
 	</div>
 </div>
 
 <div class="grid">
 	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
-		<h2>Men's</h2>
-		{% include product-list.html type='mens' %}
+			<div class="gutter">
+				<h2>Men's</h2>
+			</div>
+			{% include product-list.html type='mens' %}
 	</div>
 	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
-		<h2>Women's</h2>
-		{% include product-list.html type='womens' %}
+		<div class="gutter">
+			<h2>Women's</h2>
+		</div>
+			{% include product-list.html type='womens' %}
 	</div>
 </div>
