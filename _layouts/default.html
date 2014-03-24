@@ -29,11 +29,11 @@
     <div class="masthead-top">
       <h1 class="logo-wrapper brand"><a href="{{site.baseurl}}/" class="logo"></a>Shirtz</h1>
     <div class="cart giga sb-search">
-      <a href="#"><i class="fa fa-shopping-cart"></i>Cart (1)</a>
+      <a href="{{site.baseurl}}/cart"><i class="fa fa-shopping-cart"></i>Cart (1)</a>
     </div>
     <div id="search">
       <div id="sb-search" class="sb-search">
-        <form>
+        <form method="get" action="{{site.baseurl}}/search/">
           <input class="sb-search-input" placeholder="Whatcha lookin' for..." type="search" value="" name="search" id="search">
           <input class="sb-search-submit" type="submit" value="">
           <span class="sb-icon-search"></span>
