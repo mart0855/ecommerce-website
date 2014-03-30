@@ -178,6 +178,10 @@ a:active {
   border-bottom-color: #984860;
 }
 
+.header a {
+  color: #28a090;
+}
+
 sup,
 sub {
   line-height: 1;
