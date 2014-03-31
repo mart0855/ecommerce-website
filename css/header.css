@@ -61,7 +61,7 @@ overflow: hidden;
 	float: left;
 	height: 50px;
     width: 50px;
-	margin: 0 5px 0 10px;
+	margin: 0 5px 0;
 	padding: 0;
     background: transparent url("../images/logo.svg") no-repeat left top;
 	background-size: 50px auto;

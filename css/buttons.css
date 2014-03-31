@@ -96,18 +96,3 @@ input[type=search] {
 .cart i{
 	padding: 5px;
 }
-
-@media screen and (min-width: 30em) {
-
-
-	input[type=search] {
-	float: right;
-	padding: 4px;            /* Overridden by padding: 1px; */
-	font-family: "Raleway";     /* Overridden by font: -webkit-small-control; */
-	border: 2px solid #da8264;  /* Overridden by border: 2px inset; */
-	border-radius: 4px;
-	background: #f9f8b9;          /* Overridden by background-color: white; */
-	clear: both;
-	}
-
-}
