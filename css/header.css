@@ -55,6 +55,7 @@ overflow: hidden;
 	float:left;
 	font-size: 2em;
 	margin-bottom: -28px;
+    margin-top: .3em;
 }
 
 .logo:link{
@@ -67,16 +68,12 @@ overflow: hidden;
 	background: transparent url("../images/logo.svg") no-repeat left top;
 	background-size: 50px auto;
 
-	font-size: 1em;
-	line-height: 1.3;
+	font-size: 1.5em;
+	line-height: 1em;
 	text-indent: 100%;
 	white-space: nowrap;
 	text-decoration: none;
 	border-bottom: none;
-}
-
-.logo:hover{
-    width: 60px;
 }
 
 .pattern {
@@ -119,7 +116,7 @@ nav[role=navigation] li a {
 	border-bottom: 1px solid #808080;
 }
 
-/* SEARCH CRAP */
+/* SEARCH */
 
 .sb-search {
     position: relative;
@@ -251,13 +248,13 @@ input[type="search"].sb-search-input {
 	}
 
 		.logo:link {
-		height: 80px;
-		width: 80px;
-		background-size: 80px;
+		height: 60px;
+		width: 60px;
+		background-size:60px;
 	}
 
 	.logo-wrapper{
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 	nav[role=navigation] {
@@ -276,6 +273,42 @@ input[type="search"].sb-search-input {
 		border: 0;
 	}
 
+.sb-search-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    outline: none;
+    background: #fff;
+    width: 50%;
+    height: 60px;
+    margin: 0;
+    z-index: 10;
+    padding: 20px 65px 20px 20px;
+    font-family: inherit;
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+}
+
+@media only screen and (min-width: 50em) {
+.sb-search-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    outline: none;
+    background: #fff;
+    width: 30%;
+    height: 60px;
+    margin: 0;
+    z-index: 10;
+    padding: 20px 65px 20px 20px;
+    font-family: inherit;
+    font-size: 20px;
+    color: #2c3e50;
+}
 }
 
 .current {
