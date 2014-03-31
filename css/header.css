@@ -251,7 +251,7 @@ input[type="search"].sb-search-input {
 	}
 
 	.logo-wrapper{
-		font-size: 2em;
+		font-size: 3.5em;
 	}
 
 	nav[role=navigation] {
@@ -290,6 +290,7 @@ input[type="search"].sb-search-input {
 }
 
 @media only screen and (min-width: 50em) {
+
 .sb-search-input {
     position: absolute;
     top: 0;
