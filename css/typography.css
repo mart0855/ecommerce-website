@@ -187,6 +187,7 @@ a:active{
 a:focus{
   /* Focus MUST ALWAYS have a focus rectangle */
   outline: 3px solid #000;
+  display: block;
 }
 
 .heading a {
