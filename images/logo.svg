@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 361.482 361.482" enable-background="new 0 0 361.482 361.482" xml:space="preserve">
-<path fill="#FFFFFF" stroke="#231F20" stroke-width="19.0216" stroke-miterlimit="10" d="M272.372,20.358
-	c-18.636,28.696-51.422,47.742-88.761,47.742s-70.125-19.046-88.761-47.742H73.481v319.116h219.915V20.358H272.372z"/>
-<path stroke="#231F20" stroke-miterlimit="10" d="M347.021,66.732v93.76h-107.25v-92.76h0.01c-0.01-0.33-0.01-0.66-0.01-1
-	c0-29.61,24.01-53.62,53.62-53.62C323.011,13.112,347.021,37.122,347.021,66.732z"/>
-<path fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" d="M239.781,67.732h-0.01v-1
-	C239.771,67.072,239.771,67.402,239.781,67.732z"/>
-<path stroke="#231F20" stroke-miterlimit="10" d="M127.451,67.732v92.76H20.201v-87.74c-0.23-1.97-0.34-3.98-0.34-6.02
-	c0-29.61,24.01-53.62,53.62-53.62c29.62,0,53.63,24.01,53.63,53.62c0,0.34,0,0.67-0.01,1H127.451z"/>
-<path fill="#FFFFFF" stroke="#231F20" stroke-miterlimit="10" d="M127.451,66.732v1h-0.35c0.01-0.33,0.01-0.66,0.01-1H127.451z"/>
-<text transform="matrix(1 0 0 1 136.5607 262.6982)" font-family="'RockwellStd'" font-size="173">S</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="116 504 2388 2400" enable-background="new 116 504 2388 2400"><style type="text/css">.st0{fill:#FFFFFF;stroke:#231F20;stroke-width:19.0216;stroke-miterlimit:10;} .st1{stroke:#231F20;stroke-miterlimit:10;} .st2{fill:#FFFFFF;stroke:#231F20;stroke-miterlimit:10;} .st3{enable-background:new ;}</style><path class="st0" d="M1953 578c-133.6 205.8-368.7 342.3-636.5 342.3s-502.8-136.6-636.4-342.3h-153.2v2288.2h1576.9v-2288.2h-150.8z"/><path class="st1" d="M2488.3 910.5v672.3h-769v-665.1h.1c-.1-2.4-.1-4.7-.1-7.2 0-212.3 172.2-384.5 384.5-384.5s384.5 172.2 384.5 384.5z"/><path class="st2" d="M1719.3 917.7l-.1-7.2c.1 2.4.1 4.8.1 7.2z"/><path class="st1" d="M913.9 917.7v665.1h-769v-629.1c-1.6-14.1-2.4-28.5-2.4-43.2 0-212.3 172.2-384.5 384.5-384.5 212.4 0 384.6 172.2 384.6 384.5 0 2.4 0 4.8-.1 7.2h2.4z"/><path class="st2" d="M913.9 910.5v7.2h-2.5c.1-2.4.1-4.7.1-7.2h2.4z"/><path d="M1021.4 2010.5h104.2v74.4c53.3 90.6 115.4 138.9 196 138.9 85.6 0 148.9-60.8 148.9-141.4 0-165-264.2-107.9-395.7-239.4-32.3-32.3-55.8-81.9-55.8-152.6 0-156.3 119.1-230.7 245.6-230.7 67 0 131.5 22.3 188.6 65.7v-55.8h104.2v254.4h-104.2v-58.3c-45.9-67-101.7-98-178.6-98-85.6 0-141.4 43.4-141.4 107.9 0 28.5 11.2 54.6 28.5 71.9 65.7 65.7 267.9 54.6 365.9 152.6 44.7 44.7 71.9 112.9 71.9 181.1 0 142.7-114.1 248.1-266.7 248.1-76.9 0-146.4-27.3-207.2-83.1v69.5h-104.2v-305.2z" class="st3"/></svg>
