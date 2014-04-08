@@ -1,13 +1,16 @@
 .promo-small{
-	background-color: #c7c0ae;
-	border-radius: 10px;
+	/*background-color: #c7c0ae;
+	border-radius: 10px;*/
+	border: solid 1px;
+
 }
 
 .promo-large{
 	background-color: #f9f8b9;
+	background: background: transparent url("../images/mens/t-shirt4") no-repeat left top;;
 }
 
-.promo-group .unit:last-child .promo-small {
+/*.promo-group .unit:last-child .promo-small {
 	background-color: blue;
-}
+}*/
 
