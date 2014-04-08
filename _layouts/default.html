@@ -13,18 +13,19 @@
 </head>
 <body>
 
-  <header class="masthead" role="banner">
+  <header class="masthead grid" role="banner">
 
     <div class="masthead-top">
-      <h1 class="logo-wrapper brand heading"><a href="{{site.baseurl}}/" class="logo">Shirtz</h1></a>
+      <h1 class="logo-wrapper brand heading gutter"><a href="{{site.baseurl}}/" class="logo">Shirtz</h1></a>
     <div class="cart giga sb-search">
       <a href="{{site.baseurl}}/cart"><i class="fa fa-shopping-cart"></i><span class="hide-text">Cart</span></a>
     </div>
     <div id="search" class="grid" role="search">
       <div id="sb-search" class="sb-search">
         <form method="get" action="{{site.baseurl}}/search/" >
+          <label for="search">Search</label>
           <input class="sb-search-input" placeholder="Search..." type="search" value="" name="search" id="search">
-          <input class="sb-search-submit" type="submit" value="">
+          <input class="sb-search-submit" type="submit" value="Search">
           <span class="sb-icon-search"></span>
         </form>
       </div>

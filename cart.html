@@ -45,3 +45,29 @@ layout: default
       <a class="btn btn-alt tera ease-all media-img-reversed" href="{{site.baseurl}}/thank-you">Checkout</a>
     </div>
   </div>
+
+
+<div class="grid">
+  <div class="gutter"
+    <form action="/cart" method="post" name="cartform" id="cart-form" class="cart-form">
+          <div class="cart-table-container">
+            <ol class="cart-table">
+              <li class="row">
+                <div class="th cell t-desc">Product</div>
+                <div class="th cell t-price">Price</div>
+                <div class="th cell t-qty">Quantity</div>
+                <div class="th cell t-del">Remove?</div>
+                <div class="th cell t-total">Total</div>
+              </li>
+
+              <li class="row" data-item-id="#">
+                <div class="cell td t-desc"><a href="{{site.baseurl}}/products/mens/brooklyn">Brooklyn- Men L</a></div>
+                <div class="cell td t-price">$25.00</div>
+                <div class="cell td t-qty"><input type="text" class="field" name="updates[275584364]" id="updates_275584364" value="1" /></div>
+                <div class="cell td t-del"><a href="/cart/change/275584364?quantity=0" class="remove">&times;</a></div>
+                <div class="cell td t-total">$25.00</div>
+              </li>
+
+            </ol>
+          </div>
+      </div>
