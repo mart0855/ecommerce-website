@@ -9,8 +9,8 @@ html {
 	font: normal 100%/1.4 Georgia,serif;
 }
 
-p {
-	margin: 0 0 1.4rem;
+.center {
+	text-align: center;
 }
 
 ul {
