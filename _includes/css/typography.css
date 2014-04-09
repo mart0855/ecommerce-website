@@ -19,17 +19,10 @@ html {
   font: normal 100%/1.56 "Archivo",sans-serif; /* 16px/25px */
 }
 
-p{
-  margin: 0 5rem 0;
-}
 
-ul, ol, dl,
-blockquote, table, hr {
+h1, h2, h3, h4, h5, h6, ul, ol, dl,
+p, blockquote, table, hr {
   margin: 0 0 1.25rem;
-}
-
-h1, h2, h3, h4, h5, h6{
-  text-align: center;
 }
 
 .yotta {
