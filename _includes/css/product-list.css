@@ -9,7 +9,7 @@
 div.slideshow-container {
 	position: relative;
 	clear: both;
-	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	height: 350px; /* This should be set to be at least the height of the largest image in the slideshow */
 }
 
 div.slideshow {
@@ -24,8 +24,7 @@ div.slideshow span.image-wrapper {
 div.slideshow a.advance-link {
 	display: block;
 	background-color: white;
-	height: 400px; /* This should be set to be at least the height of the largest image in the slideshow */
-	line-height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	height: 0; /* This should be set to be at least the height of the largest image in the slideshow */
 	text-align: center;
 	border:none;
 
@@ -34,7 +33,6 @@ div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.sli
 	text-decoration: none;
 }
 div.slideshow img {
-	vertical-align: middle;
 	border: 1px solid #ccc;
 	width:98%;
 }
@@ -43,6 +41,8 @@ ul.thumbs {
 	clear: both;
 	margin: 0;
 	padding: 0;
+	position:relative;
+	left: 27px;
 }
 ul.thumbs li {
 	float: left;
@@ -54,6 +54,11 @@ a.thumb {
 	padding: 2px;
 	display: block;
 }
+
+a.thumb:link{
+	border:none;
+}
+
 ul.thumbs li.slide-selected a.thumb {
 	background: #000;
 		border:none;
