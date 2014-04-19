@@ -6,6 +6,7 @@ type: mens
 price: $15.99
 material: 100% combed ringspun cotton; garment-dyed for premium softness and minimal shrinkage.
 image: mens/brooklyn.jpg
+thumb: mens/japan.jpg
 ---
 
 *Brooklyn* brings New York's colourful underbelly to the forefront.
