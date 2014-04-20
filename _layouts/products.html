@@ -16,15 +16,15 @@ layout: default
 			<div id="thumbs" class="unit unit-s-1-2 unit-m-1-4 unit-l-1-4">
 				<ul class="thumbs noscript">
         <li class="list-group-item">
-            <a class="thumb" name="shirt" href="{{site.baseurl}}/images/{{page.thumb}}" title="your image title">
-                <img src="{{site.baseurl}}/images/{{page.thumb}}" alt="Photo of {{page.title}}" />
+            <a class="thumb" name="shirt" href="{{site.baseurl}}/images/{{page.image}}" title="{{page.title}}">
+                <img src="{{site.baseurl}}/images/{{page.image}}" alt="Photo of {{page.title}}" />
             </a>
             <div class="caption">
             </div>
         </li>
         <li class="list-group-item">
-            <a class="thumb" name="shirt-2" href="{{site.baseurl}}/images/{{page.image}}" title="your image title">
-                <img src="{{site.baseurl}}/images/{{page.image}}" alt="Photo of {{page.title}}" />
+            <a class="thumb" name="shirt-2" href="{{site.baseurl}}/images/{{page.thumb}}" title="{{page.title}}">
+                <img src="{{site.baseurl}}/images/{{page.thumb}}" alt="Photo of {{page.title}}" />
             </a>
             <div class="caption">
             </div>
@@ -60,7 +60,7 @@ layout: default
 				</li>
 			</ul>
 		</div>
-		<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-2-3">
+		<div class="gutter unit unit-s-1 unit-m-1 unit-l-2-3">
 			<dl>
 				<dt>Artist:</dt><dd class="giga">{{page.artist}}</dd>
 				<dt>Price:</dt><dd class="giga">{{page.price}}</dd>

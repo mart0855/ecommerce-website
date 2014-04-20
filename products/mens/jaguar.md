@@ -10,5 +10,5 @@ image: mens/jaguar.jpg
 thumb: mens/jaguar2.jpg
 ---
 
-*Jaguar* brings New York's colourful underbelly to the forefront.
+*Jaguar* brings L.A.'s' colourful underbelly to the forefront.
 

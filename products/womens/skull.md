@@ -1,12 +1,14 @@
 ---
 layout: products
-title: Candy Skull
-meta: ROYGBIV Skull with stars.
+title: I'm So Fashion
+meta: Skull faced girl wearing green sunglasses..
 type: womens
 price: $15.99
 material: 100% combed ringspun cotton; garment-dyed for premium softness and minimal shrinkage.
-image: womens/skull.jpg
+image: womens/skull2.jpg
+thumb: womens/skull.jpg
+artist: Felipe Guga
 ---
 
-*Candy Skull* is the trendiest thing on the planet.
+This hand drawn design on a canary yellow shirt brings pop to another level.
 

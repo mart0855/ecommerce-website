@@ -10,4 +10,4 @@ thumb: mens/curtis2.jpg
 artist: In Black We Trust
 ---
 
-Front man of Joy Division, *Ian Curtis* bleeding in cyan.
+Front man of Joy Division, *Ian Curtis*, bleeding in cyan.

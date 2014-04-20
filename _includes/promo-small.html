@@ -1,6 +1,7 @@
 <div class="promo-small pad-b">
 	<div class="media-img">
-		<img class="img-flex" src="{{site.baseurl}}/images/{{include.image}}" alt="">
+		<a href="{{site.baseurl}}{{include.link}}"><img class="img-flex ease-all" src="{{site.baseurl}}/images/{{include.image}}" alt="">
+		</a>
 	</div>
 
 	<div class="">
@@ -9,6 +10,6 @@
 	</div>
 
 	<div>
-		<a class="btn btn-alt kilo" href="#">Learn more.</a>
+		<a class="btn btn-alt kilo" href="{{site.baseurl}}{{include.link}}">Learn more.</a>
 	</div>
 </div>
