@@ -1,12 +1,13 @@
 ---
 layout: products
-title: Jaguar
-meta: Fragmented typographic design built from colourful bits and pieces.
+title: Technicolor Dreamcat
+meta: Line art jaguar in gradations of blue and green.
 type: mens
 price: $15.99
 material: 100% combed ringspun cotton; garment-dyed for premium softness and minimal shrinkage.
+artist: Hannah Stouffer
 image: mens/jaguar.jpg
-thumb: mens/japan.jpg
+thumb: mens/jaguar2.jpg
 ---
 
 *Jaguar* brings New York's colourful underbelly to the forefront.
