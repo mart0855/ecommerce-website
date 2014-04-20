@@ -41,8 +41,7 @@ ul.thumbs {
 	clear: both;
 	margin: 0;
 	padding: 0;
-	position:relative;
-	left: 27px;
+	margin-left: 21px;
 }
 ul.thumbs li {
 	float: left;
