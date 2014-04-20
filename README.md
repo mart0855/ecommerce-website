@@ -4,7 +4,9 @@ ecommerce-website
 The primary assignment in Design for Interactive 3.
 
 ---
-© 2014 Alex Martin
+Web Design © 2014 Alex Martin
+
+Product Photography © 2009 MAKI, TEES: The Art of the T-Shirt
 
 Code licensed under the [MIT License](LICENSE).
 
